@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Stop Watch By Ashish</title>
+</head>
+<body>
+
+<!-- Main Container Div -->
+    <div  id="container">
+
+        <!-- Given Title -->
+        <p>Stop <span id="watch">Watch</span></p>
+
+        <!-- Div for Timer Clock -->
+        <div id="stop-watch">
+            <div id="outer">
+                <div id="inner">
+                    <span id="timer">
+                        </span><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="mili-seconds">00</span> 
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Div for Start and Stop Buttons -->
+        <div id="start-stop">
+            <button class="btn" id="button-start">Start</button>
+            <button class="btn" id="button-stop">Stop</button>
+        </div>
+
+        <!-- Div for Reset Button -->
+        <div id="reset">
+            <button class="btn" id="button-reset">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="./src/script.js"></script>
+    
+</body>
+</html>
