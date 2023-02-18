@@ -1,0 +1,114 @@
+
+/* body styling */
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(220,230,242), rgb(201,214,231));
+    font-family: sans-serif;
+}
+
+/* Main container styling */
+#container {
+    height: 550px;
+    width: 300px;
+    border-radius: 22px;
+    background: linear-gradient(90deg, rgb(239,246,252), rgb(227,237,247));
+}
+
+
+/* Stop Watch heading styling */
+p {
+    margin-left: 17px;
+    margin-top: 23px;
+    font-size: 2.1rem;
+    color: rgb(50,64,91);
+    word-spacing: 90px;
+}
+
+#watch {
+    color: rgb(190,200,212);
+}
+
+
+/* Stop watches div and its inner divs styling */
+#stop-watch {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(227,237,247);
+    box-shadow: 25px 10px 25px rgb(204,219,232), -8px -2px 20px rgb(240,245,251);
+}
+
+#outer {
+    width: 200px;
+    height: 200px;
+    border: 1px double rgb(190,200,212);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner {
+    width: 192px;
+    height: 192px;
+    border: 1px double rgb(190,200,212);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 2.1rem;
+    color: rgb(50,64,91);
+}
+
+#timer {
+    margin-left: 31px;
+}
+
+
+/* Buttons Styling */
+.btn {
+    height: 50px;
+    width: 120px;
+    font-size: 1.05rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(50,64,91);
+    background: rgb(227,237,247);
+    box-shadow: 8px 5px 10px rgb(206,220,231), -3px -1px 20px rgb(240,245,251);
+}
+
+
+/* Start Stop Button's container div styling */
+#start-stop {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}
+
+
+/* Reset Button Container div */
+#reset {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 30px;
+}
+
+
+/* Reset button styling */
+#button-reset {
+    width: 150px;
+    color: rgb(212, 115, 126);
+}
